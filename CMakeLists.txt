@@ -58,6 +58,7 @@ if(NOT DEFINED USE_BOOST_ASIO)
 endif()
 
 configure_file(src/configure.hpp.in include/asiocurl/configure.hpp)
+include_directories(${CMAKE_CURRENT_BINARY_DIR}/include/)
 
 add_library(asiocurl SHARED
 	src/easy.cpp

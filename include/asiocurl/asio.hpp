@@ -6,7 +6,7 @@
 #pragma once
 
 
-#include "configure.hpp"
+#include <asiocurl/configure.hpp>
 
 
 #ifdef ASIOCURL_USE_BOOST_ASIO
